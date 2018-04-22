@@ -1,5 +1,4 @@
 # arcade-game
-===============================
 
 * [Get Started](#Get-started)
 * [How to play](#how-to-play)
