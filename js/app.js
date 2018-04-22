@@ -95,17 +95,16 @@ Player.prototype.handleInput = function(keyPress) {
 
 //Initializing variables and objects
 var enemyStarts = [60, 140, 220];
-var enemy;
+
 allEnemies = [];
 for(var i = 0; i < enemyStarts.length; i = i+1)
 {
-  enemy = new Enemy(0, enemyStarts[i], 100 + Math.floor(Math.random() * 500));
-  allEnemies.push(enemy);
+  allEnemies.push(new Enemy(0, enemyStarts[i], 100 + Math.floor(Math.random() * 500)));
 }
 
-
-
 var player = new Player(200, 380, 50);
+
+
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
