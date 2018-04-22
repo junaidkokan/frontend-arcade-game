@@ -22,7 +22,7 @@ Enemy.prototype.update = function(dt) {
     // Resetting enemy position of enemy
     if (this.x > 500) {
         this.x = -100;
-        this.speed = 100 + Math.floor(Math.random() * 512);
+        this.speed = 100 + Math.floor(Math.random() * 500);
     }
 
     // Checking collision
