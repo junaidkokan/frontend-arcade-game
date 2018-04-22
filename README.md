@@ -1,6 +1,31 @@
-frontend-nanodegree-arcade-game
+# arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+* [Get Started](#Get-started)
+* [How to play](#how-to-play)
+* [Code dependencies](#dependencies)
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Get started
+Simply [download](https://github.com/junaidkokan/frontend-arcade-game/archive/master.zip), or [clone](https://github.com/junaidkokan/frontend-arcade-game.git), this repository and open the index.html file in a browser of your choice.
+
+Alternatively, you could also serve the index.html file through a local server. To do that follow the steps below.
+1. Navigate to your local git repository
+2. Launch a simple server using python
+```
+$ python -m SimpleHTTPServer
+```
+3. Open the browser with the following address
+```
+http://localhost:8000
+```
+
+
+## How to play
+It is a browser based game. The idea is to navigate the player to the river without colliding with the bugs. Use arrow keys to navigate the player. Once the player reaches the other end, the game is automatically reset.
+
+
+## Code dependencies
+The app is built with the following code dependencies:
+1. JavaScript
+2. HTML
+3. CSS
